@@ -1,0 +1,8 @@
+[server]
+# Use polling watcher instead of inotify/watchdog —
+# prevents Streamlit from trying to import every transformers sub-module
+# (which fails because torchvision is not installed in this env).
+fileWatcherType = "poll"
+
+[browser]
+gatherUsageStats = false

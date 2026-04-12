@@ -1,0 +1,205 @@
+2026-04-11 11:53:44.436 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-11 11:53:44.810 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 4 chunks from 34 words
+2026-04-11 11:53:45.062 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 8 sentences
+2026-04-11 11:53:45.289 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 1 chunks from 3 paragraphs
+2026-04-11 11:53:45.738 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 8 sentences
+2026-04-11 11:54:27.001 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-11 11:54:27.717 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 4 chunks from 34 words
+2026-04-11 11:54:28.187 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 8 sentences
+2026-04-11 11:54:28.573 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 1 chunks from 3 paragraphs
+2026-04-11 11:54:29.329 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 8 sentences
+2026-04-11 11:55:23.855 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 10 vectors, dim=384
+2026-04-11 11:55:23.858 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 2 vectors, dim=384
+2026-04-11 11:55:23.859 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 5 vectors, dim=384
+2026-04-11 11:55:23.859 | INFO     | indexer:add:160 | Added 3 vectors to index (total: 8)
+2026-04-11 11:57:10.590 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:57:11.078 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 11:57:11.078 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 11:57:16.849 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:57:17.588 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 5 vectors, dim=384
+2026-04-11 11:57:17.588 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 5 chunks
+2026-04-11 11:57:23.168 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:57:23.460 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 20 vectors, dim=384
+2026-04-11 11:57:23.460 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 20 chunks
+2026-04-11 11:57:23.460 | INFO     | retriever:retrieve:283 | Retrieving for query: 'What is NLP?...'
+2026-04-11 11:57:23.911 | DEBUG    | retriever:retrieve:289 | Dense: 20 results, BM25: 20 results
+2026-04-11 11:57:23.911 | DEBUG    | retriever:retrieve:295 | Fused: 10 candidates for re-ranking
+2026-04-11 11:57:44.254 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-11 11:57:44.306 | INFO     | retriever:retrieve:300 | Retrieved 5 final passages
+2026-04-11 11:58:45.218 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-11 11:58:45.219 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-11 11:58:45.219 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-11 11:58:47.738 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-11 11:58:47.739 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-11 11:59:00.381 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:59:00.381 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 3 texts...
+2026-04-11 11:59:00.589 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-11 11:59:00.589 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-11 11:59:00.614 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 11:59:00.615 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 11:59:00.617 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 11:59:00.617 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 15.41s
+2026-04-11 11:59:00.618 | INFO     | retriever:retrieve:283 | Retrieving for query: 'What is tokenization?...'
+2026-04-11 11:59:00.921 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 2 results
+2026-04-11 11:59:00.922 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-11 11:59:08.917 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-11 11:59:09.190 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-11 11:59:09.455 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-11 11:59:09.455 | INFO     | answer_extractor:extract_answer:106 | Question type: DEFINE
+2026-04-11 11:59:10.148 | INFO     | pipeline:ask:278 | Answer: confidence=0.714, source=sample_nlp_notes.txt, type=DEFINE
+2026-04-11 11:59:10.151 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-11 11:59:10.151 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-11 11:59:10.151 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-11 11:59:10.440 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-11 11:59:10.440 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-11 11:59:15.950 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:59:15.951 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-11 11:59:15.952 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-11 11:59:15.952 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 11:59:15.954 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 11:59:15.955 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 11:59:15.955 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 5.81s
+2026-04-11 11:59:15.956 | INFO     | retriever:retrieve:283 | Retrieving for query: 'What is NLP?...'
+2026-04-11 11:59:16.568 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 2 results
+2026-04-11 11:59:16.568 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-11 11:59:24.832 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-11 11:59:25.089 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-11 11:59:25.089 | INFO     | answer_extractor:extract_answer:106 | Question type: DEFINE
+2026-04-11 11:59:25.760 | INFO     | pipeline:ask:278 | Answer: confidence=0.988, source=sample_nlp_notes.txt, type=DEFINE
+2026-04-11 11:59:25.763 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-11 11:59:25.763 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-11 11:59:25.763 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-11 11:59:26.092 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-11 11:59:26.092 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-11 11:59:31.645 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:59:31.646 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-11 11:59:31.646 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-11 11:59:31.647 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 11:59:31.648 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 11:59:31.649 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 11:59:31.649 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 5.89s
+2026-04-11 11:59:31.650 | INFO     | retriever:retrieve:283 | Retrieving for query: 'Who developed Word2Vec?...'
+2026-04-11 11:59:32.282 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 1 results
+2026-04-11 11:59:32.282 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-11 11:59:40.421 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-11 11:59:40.691 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-11 11:59:40.691 | INFO     | answer_extractor:extract_answer:106 | Question type: WHO
+2026-04-11 11:59:41.231 | INFO     | pipeline:ask:278 | Answer: confidence=0.939, source=sample_nlp_notes.txt, type=WHO
+2026-04-11 11:59:41.235 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-11 11:59:41.236 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-11 11:59:41.236 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-11 11:59:41.586 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-11 11:59:41.586 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-11 11:59:47.126 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 11:59:47.126 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-11 11:59:47.126 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-11 11:59:47.127 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 11:59:47.128 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 11:59:47.128 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 11:59:47.128 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 5.89s
+2026-04-11 11:59:47.129 | INFO     | retriever:retrieve:283 | Retrieving for query: 'Who developed Word2Vec?...'
+2026-04-11 11:59:47.765 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 1 results
+2026-04-11 11:59:47.766 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-11 11:59:55.851 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-11 11:59:56.118 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-11 11:59:56.118 | INFO     | answer_extractor:extract_answer:106 | Question type: WHO
+2026-04-11 11:59:56.671 | INFO     | pipeline:ask:278 | Answer: confidence=0.939, source=sample_nlp_notes.txt, type=WHO
+2026-04-11 11:59:56.671 | INFO     | retriever:retrieve:283 | Retrieving for query: 'What is NER?...'
+2026-04-11 11:59:56.701 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 2 results
+2026-04-11 11:59:56.701 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-11 11:59:56.859 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-11 11:59:56.860 | INFO     | answer_extractor:extract_answer:106 | Question type: DEFINE
+2026-04-11 11:59:57.045 | INFO     | pipeline:ask:278 | Answer: confidence=0.981, source=sample_nlp_notes.txt, type=DEFINE
+2026-04-11 11:59:57.048 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-11 11:59:57.048 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-11 11:59:57.048 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-11 11:59:57.379 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-11 11:59:57.380 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-11 12:00:02.998 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:00:02.999 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-11 12:00:03.000 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-11 12:00:03.000 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 12:00:03.003 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 12:00:03.004 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 12:00:03.005 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 5.96s
+2026-04-11 12:00:03.008 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-11 12:00:03.009 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-11 12:00:03.009 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-11 12:00:03.314 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-11 12:00:03.314 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-11 12:00:08.867 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:00:08.868 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-11 12:00:08.869 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-11 12:00:08.869 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 12:00:08.872 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 12:00:08.874 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 12:00:08.874 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 5.87s
+2026-04-11 12:00:09.206 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 4 chunks from 34 words
+2026-04-11 12:00:09.501 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 8 sentences
+2026-04-11 12:00:09.730 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 1 chunks from 3 paragraphs
+2026-04-11 12:00:10.515 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 8 sentences
+2026-04-11 12:00:10.517 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 10 vectors, dim=384
+2026-04-11 12:00:10.518 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 2 vectors, dim=384
+2026-04-11 12:00:10.520 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 5 vectors, dim=384
+2026-04-11 12:00:10.521 | INFO     | indexer:add:160 | Added 3 vectors to index (total: 8)
+2026-04-11 12:00:16.041 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:00:16.654 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-11 12:00:16.654 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 12:00:22.112 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:00:22.601 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 5 vectors, dim=384
+2026-04-11 12:00:22.601 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 5 chunks
+2026-04-11 12:00:28.174 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:00:28.281 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 20 vectors, dim=384
+2026-04-11 12:00:28.281 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 20 chunks
+2026-04-11 12:00:28.282 | INFO     | retriever:retrieve:283 | Retrieving for query: 'What is NLP?...'
+2026-04-11 12:00:28.723 | DEBUG    | retriever:retrieve:289 | Dense: 20 results, BM25: 20 results
+2026-04-11 12:00:28.724 | DEBUG    | retriever:retrieve:295 | Fused: 10 candidates for re-ranking
+2026-04-11 12:00:36.763 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-11 12:00:36.857 | INFO     | retriever:retrieve:300 | Retrieved 5 final passages
+2026-04-11 12:02:32.119 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 12:02:54.292 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:02:54.293 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 12:02:54.293 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-11 12:03:10.096 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-11 12:03:15.976 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-11 12:03:15.977 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-11 12:03:15.977 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 10:55:40.495 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 10:56:19.553 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 10:57:36.223 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-12 10:57:36.224 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 10:57:36.224 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 10:57:36.495 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-12 10:57:36.496 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 10:57:36.497 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 10:58:33.602 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-12 10:58:33.603 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-12 10:58:33.603 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-12 10:58:43.794 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-12 10:58:43.795 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-12 10:58:43.817 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-12 10:58:43.818 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-12 10:58:43.819 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-12 10:58:43.822 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 10:58:43.823 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 10:58:43.825 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 10.24s
+2026-04-12 11:01:26.848 | INFO     | retriever:retrieve:283 | Retrieving for query: 'What is tokenization?...'
+2026-04-12 11:01:27.129 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 2 results
+2026-04-12 11:01:27.129 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-12 11:01:35.413 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-12 11:01:35.939 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-12 11:01:36.426 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-12 11:01:36.427 | INFO     | answer_extractor:extract_answer:106 | Question type: DEFINE
+2026-04-12 11:01:37.152 | INFO     | pipeline:ask:278 | Answer: confidence=0.714, source=sample_nlp_notes.txt, type=DEFINE
+2026-04-12 11:02:38.632 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 11:02:44.422 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-12 11:02:44.423 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 11:02:44.424 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 11:04:52.848 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 11:05:05.923 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-12 11:05:05.924 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 11:05:05.925 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 11:06:28.101 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 11:06:41.196 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-12 11:06:41.198 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 11:06:41.198 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
