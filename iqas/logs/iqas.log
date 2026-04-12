@@ -203,3 +203,65 @@
 2026-04-12 11:06:41.196 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
 2026-04-12 11:06:41.198 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
 2026-04-12 11:06:41.198 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 11:08:17.994 | INFO     | indexer:load:217 | Loaded FAISS index: 3 vectors from C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 11:08:31.239 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-12 11:08:31.241 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-12 11:08:31.243 | INFO     | pipeline:load_index:303 | Loaded index with 3 chunks
+2026-04-12 11:08:58.902 | INFO     | retriever:retrieve:283 | Retrieving for query: 'what is NLP...'
+2026-04-12 11:08:59.148 | DEBUG    | retriever:retrieve:289 | Dense: 3 results, BM25: 2 results
+2026-04-12 11:08:59.149 | DEBUG    | retriever:retrieve:295 | Fused: 3 candidates for re-ranking
+2026-04-12 11:09:07.302 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-12 11:09:08.047 | INFO     | retriever:retrieve:300 | Retrieved 3 final passages
+2026-04-12 11:09:09.290 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-12 11:09:09.291 | INFO     | answer_extractor:extract_answer:106 | Question type: DEFINE
+2026-04-12 11:09:10.539 | INFO     | pipeline:ask:278 | Answer: confidence=0.995, source=sample_nlp_notes.txt, type=DEFINE
+2026-04-12 11:09:56.142 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:09:56.178 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:06.468 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:06.690 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:08.419 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:08.452 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:08.631 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:08.632 | INFO     | document_loader:batch_load:211 | Batch loaded 8 document sections from 1 files
+2026-04-12 11:10:08.632 | INFO     | pipeline:ingest_documents:159 | Loaded 8 document sections
+2026-04-12 11:10:08.914 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 691 words
+2026-04-12 11:10:08.915 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 437 words
+2026-04-12 11:10:08.915 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 272 words
+2026-04-12 11:10:08.915 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 238 words
+2026-04-12 11:10:08.916 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 347 words
+2026-04-12 11:10:08.916 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 248 words
+2026-04-12 11:10:08.916 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 503 words
+2026-04-12 11:10:08.916 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 781 words
+2026-04-12 11:10:08.916 | INFO     | pipeline:ingest_documents:186 | Generated 10 chunks using 'fixed' strategy
+2026-04-12 11:10:08.919 | WARNING  | embedder:embed_and_cache:124 | Cache size mismatch (3 vs 10) — recomputing
+2026-04-12 11:10:08.920 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 10 texts...
+2026-04-12 11:10:10.036 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-12 11:10:10.036 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (10, 384)
+2026-04-12 11:10:10.038 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 10 vectors, dim=384
+2026-04-12 11:10:10.039 | INFO     | indexer:save:188 | Saved FAISS index (10 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 11:10:10.048 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 10 chunks
+2026-04-12 11:10:10.056 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 10 chunks in 1.45s
+2026-04-12 11:10:30.682 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:30.726 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:33.256 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:33.328 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:33.571 | INFO     | document_loader:load_pdf:88 | Loaded PDF: I_3_Group (4).pdf (8 pages, 8 with text)
+2026-04-12 11:10:33.577 | INFO     | document_loader:batch_load:211 | Batch loaded 8 document sections from 1 files
+2026-04-12 11:10:33.578 | INFO     | pipeline:ingest_documents:159 | Loaded 8 document sections
+2026-04-12 11:10:33.729 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 38 sentences
+2026-04-12 11:10:33.826 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 23 sentences
+2026-04-12 11:10:33.885 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 10 sentences
+2026-04-12 11:10:33.933 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 12 sentences
+2026-04-12 11:10:33.988 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 14 sentences
+2026-04-12 11:10:34.020 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 1 chunks from 14 sentences
+2026-04-12 11:10:34.097 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 23 sentences
+2026-04-12 11:10:34.212 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 63 sentences
+2026-04-12 11:10:34.212 | INFO     | pipeline:ingest_documents:186 | Generated 12 chunks using 'sentence' strategy
+2026-04-12 11:10:34.225 | WARNING  | embedder:embed_and_cache:124 | Cache size mismatch (10 vs 12) — recomputing
+2026-04-12 11:10:34.225 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 12 texts...
+2026-04-12 11:10:34.675 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-12 11:10:34.675 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (12, 384)
+2026-04-12 11:10:34.676 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 12 vectors, dim=384
+2026-04-12 11:10:34.679 | INFO     | indexer:save:188 | Saved FAISS index (12 vectors) to C:\Users\ABHINAV TEJA\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-12 11:10:34.682 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 12 chunks
+2026-04-12 11:10:34.684 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 12 chunks in 1.17s
