@@ -1,28 +1,55 @@
 FROM python:3.10-slim
 
+# ── Labels ──────────────────────────────────────────────────────────
+LABEL maintainer="SRM University AP — NLP Project"
+LABEL description="IQAS: Intelligent Question Answering System"
+LABEL version="1.0"
+
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
+# ── System dependencies ─────────────────────────────────────────────
+# curl  → needed for HEALTHCHECK
+# build-essential → needed by some Python C extensions (faiss, spacy)
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        build-essential \
+        curl \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies
+# ── Python dependencies ─────────────────────────────────────────────
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir -r requirements.txt
 
-# Download spaCy model
+# ── spaCy language model ─────────────────────────────────────────────
 RUN python -m spacy download en_core_web_sm
 
-# Copy application code
+# ── Application code ─────────────────────────────────────────────────
 COPY . .
 
-# Create required directories
-RUN mkdir -p data/uploads data/processed models/faiss_index models/embeddings_cache logs
+# ── Runtime directories ──────────────────────────────────────────────
+RUN mkdir -p \
+        data/uploads \
+        data/processed \
+        data/sample_docs \
+        models/faiss_index \
+        models/embeddings_cache \
+        logs
 
-# Expose Streamlit port
+# ── Streamlit config (disable file-watcher to suppress torchvision noise) ──
+RUN mkdir -p /root/.streamlit
+COPY .streamlit/config.toml /root/.streamlit/config.toml
+
+# ── Port ─────────────────────────────────────────────────────────────
 EXPOSE 8501
 
-# Health check
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health || exit 1
+# ── Health check ─────────────────────────────────────────────────────
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+    CMD curl --fail http://localhost:8501/_stcore/health || exit 1
 
-# Run Streamlit
-CMD ["streamlit", "run", "app/main.py", "--server.port=8501", "--server.address=0.0.0.0", "--server.headless=true"]
+# ── Entrypoint ───────────────────────────────────────────────────────
+CMD ["streamlit", "run", "app/main.py", \
+     "--server.port=8501", \
+     "--server.address=0.0.0.0", \
+     "--server.headless=true", \
+     "--server.fileWatcherType=none"]
