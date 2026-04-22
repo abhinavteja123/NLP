@@ -289,3 +289,206 @@
 2026-04-12 23:46:52.777 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
 2026-04-12 23:46:52.781 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 12 chunks
 2026-04-12 23:46:52.782 | INFO     | pipeline:load_index:303 | Loaded index with 12 chunks
+2026-04-21 13:51:40.914 | INFO     | indexer:load:217 | Loaded FAISS index: 12 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 13:52:08.844 | INFO     | indexer:load:217 | Loaded FAISS index: 12 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 13:52:22.916 | INFO     | indexer:load:217 | Loaded FAISS index: 12 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 13:52:29.203 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-21 13:52:29.208 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 12 chunks
+2026-04-21 13:52:29.208 | INFO     | pipeline:load_index:303 | Loaded index with 12 chunks
+2026-04-21 13:52:29.734 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-21 13:52:29.739 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 12 chunks
+2026-04-21 13:52:29.739 | INFO     | pipeline:load_index:303 | Loaded index with 12 chunks
+2026-04-21 13:52:31.270 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-21 13:52:31.275 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 12 chunks
+2026-04-21 13:52:31.276 | INFO     | pipeline:load_index:303 | Loaded index with 12 chunks
+2026-04-21 14:01:46.847 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:01:46.855 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:01:52.661 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:01:52.668 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:01:52.681 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:01:52.682 | INFO     | document_loader:batch_load:211 | Batch loaded 0 document sections from 1 files
+2026-04-21 14:02:07.332 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:02:07.340 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:02:07.353 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:02:07.356 | INFO     | document_loader:batch_load:211 | Batch loaded 0 document sections from 1 files
+2026-04-21 14:02:25.757 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:02:25.765 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:02:25.777 | INFO     | document_loader:load_pdf:88 | Loaded PDF: 1. nlp text book-252-257.pdf (6 pages, 0 with text)
+2026-04-21 14:02:25.778 | INFO     | document_loader:batch_load:211 | Batch loaded 0 document sections from 1 files
+2026-04-21 14:02:51.517 | INFO     | indexer:load:217 | Loaded FAISS index: 12 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 14:03:00.443 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-21 14:03:00.450 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 12 chunks
+2026-04-21 14:03:00.450 | INFO     | pipeline:load_index:303 | Loaded index with 12 chunks
+2026-04-21 14:03:16.624 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:16.681 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:21.894 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-21 14:03:46.972 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:47.027 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:48.172 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:48.228 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:48.692 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:03:48.693 | INFO     | document_loader:batch_load:211 | Batch loaded 6 document sections from 1 files
+2026-04-21 14:03:48.695 | INFO     | pipeline:ingest_documents:159 | Loaded 6 document sections
+2026-04-21 14:03:49.934 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 27 sentences
+2026-04-21 14:03:49.935 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 2 chunks from 1 paragraphs
+2026-04-21 14:03:50.188 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 36 sentences
+2026-04-21 14:03:50.188 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 2 chunks from 1 paragraphs
+2026-04-21 14:03:50.188 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 1 chunks from 3 paragraphs
+2026-04-21 14:03:50.397 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 34 sentences
+2026-04-21 14:03:50.397 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 2 chunks from 1 paragraphs
+2026-04-21 14:03:50.588 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 30 sentences
+2026-04-21 14:03:50.589 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 2 chunks from 1 paragraphs
+2026-04-21 14:03:50.885 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 76 sentences
+2026-04-21 14:03:50.885 | DEBUG    | chunker:chunk_by_paragraph:330 | Paragraph chunking: 2 chunks from 1 paragraphs
+2026-04-21 14:03:50.885 | INFO     | pipeline:ingest_documents:186 | Generated 11 chunks using 'paragraph' strategy
+2026-04-21 14:03:50.888 | WARNING  | embedder:embed_and_cache:124 | Cache size mismatch (12 vs 11) — recomputing
+2026-04-21 14:03:50.889 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 11 texts...
+2026-04-21 14:03:51.569 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\turvi\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-21 14:03:51.569 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (11, 384)
+2026-04-21 14:03:51.574 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 11 vectors, dim=384
+2026-04-21 14:03:51.579 | INFO     | indexer:save:188 | Saved FAISS index (11 vectors) to C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 14:03:51.582 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 11 chunks
+2026-04-21 14:03:51.585 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 11 chunks in 2.94s
+2026-04-21 14:04:34.340 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:34.404 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:36.489 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:36.549 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:37.940 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:38.006 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:38.485 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-21 14:04:38.486 | INFO     | document_loader:batch_load:211 | Batch loaded 6 document sections from 1 files
+2026-04-21 14:04:38.487 | INFO     | pipeline:ingest_documents:159 | Loaded 6 document sections
+2026-04-21 14:04:38.513 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 661 words
+2026-04-21 14:04:38.515 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 685 words
+2026-04-21 14:04:38.515 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 1 chunks from 404 words
+2026-04-21 14:04:38.516 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 601 words
+2026-04-21 14:04:38.516 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 626 words
+2026-04-21 14:04:38.518 | DEBUG    | chunker:chunk_fixed:145 | Fixed chunking: 2 chunks from 887 words
+2026-04-21 14:04:38.519 | INFO     | pipeline:ingest_documents:186 | Generated 11 chunks using 'fixed' strategy
+2026-04-21 14:04:38.524 | INFO     | embedder:embed_and_cache:121 | Loaded cached embeddings from C:\Users\turvi\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-21 14:04:38.525 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (11, 384)
+2026-04-21 14:04:38.527 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 11 vectors, dim=384
+2026-04-21 14:04:38.532 | INFO     | indexer:save:188 | Saved FAISS index (11 vectors) to C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 14:04:38.538 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 11 chunks
+2026-04-21 14:04:38.540 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 11 chunks in 0.09s
+2026-04-21 14:05:47.128 | INFO     | retriever:retrieve:283 | Retrieving for query: 'what is the accuracy...'
+2026-04-21 14:05:47.164 | DEBUG    | retriever:retrieve:289 | Dense: 11 results, BM25: 11 results
+2026-04-21 14:05:47.165 | DEBUG    | retriever:retrieve:295 | Fused: 10 candidates for re-ranking
+2026-04-21 14:06:24.249 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-21 14:06:25.035 | INFO     | retriever:retrieve:300 | Retrieved 5 final passages
+2026-04-21 14:06:25.079 | INFO     | answer_extractor:extract_answer:106 | Question type: DEFINE
+2026-04-21 14:06:25.578 | INFO     | pipeline:ask:278 | Answer: confidence=0.000, source=Conference_Paper.pdf, type=DEFINE
+2026-04-21 14:07:12.441 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 14:07:20.086 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-21 14:07:20.090 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 11 chunks
+2026-04-21 14:07:20.091 | INFO     | pipeline:load_index:303 | Loaded index with 11 chunks
+2026-04-21 14:44:20.900 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-21 17:05:54.808 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 00:48:12.928 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-22 00:48:28.716 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-22 00:50:05.146 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 00:50:54.444 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 00:50:54.448 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 11 chunks
+2026-04-22 00:50:54.448 | INFO     | pipeline:load_index:303 | Loaded index with 11 chunks
+2026-04-22 00:51:36.119 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-22 05:48:34.532 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 05:49:09.760 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 05:49:09.768 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 11 chunks
+2026-04-22 05:49:09.769 | INFO     | pipeline:load_index:303 | Loaded index with 11 chunks
+2026-04-22 05:49:57.828 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 05:49:57.876 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 05:50:01.828 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-22 05:50:28.605 | INFO     | retriever:retrieve:283 | Retrieving for query: 'regarding results...'
+2026-04-22 05:50:28.849 | DEBUG    | retriever:retrieve:289 | Dense: 11 results, BM25: 5 results
+2026-04-22 05:50:28.849 | DEBUG    | retriever:retrieve:295 | Fused: 10 candidates for re-ranking
+2026-04-22 05:50:38.210 | INFO     | retriever:_get_reranker:102 | Loaded cross-encoder: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-04-22 05:50:39.063 | INFO     | retriever:retrieve:300 | Retrieved 5 final passages
+2026-04-22 05:50:39.093 | INFO     | answer_extractor:extract_answer:106 | Question type: OTHER
+2026-04-22 05:50:39.356 | INFO     | pipeline:ask:278 | Answer: confidence=0.000, source=Conference_Paper.pdf, type=OTHER
+2026-04-22 06:08:07.454 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 06:09:28.796 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 06:09:57.023 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:09:12.508 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:12:24.907 | INFO     | indexer:load:217 | Loaded FAISS index: 11 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:13:03.436 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 09:13:03.442 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 11 chunks
+2026-04-22 09:13:03.443 | INFO     | pipeline:load_index:303 | Loaded index with 11 chunks
+2026-04-22 09:13:21.401 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:13:21.455 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:13:25.223 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-22 09:13:28.167 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:13:28.225 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:13:28.748 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:13:28.750 | INFO     | document_loader:batch_load:211 | Batch loaded 6 document sections from 1 files
+2026-04-22 09:13:28.750 | INFO     | pipeline:ingest_documents:159 | Loaded 6 document sections
+2026-04-22 09:13:30.234 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 27 sentences
+2026-04-22 09:13:30.460 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 36 sentences
+2026-04-22 09:13:30.574 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 20 sentences
+2026-04-22 09:13:30.780 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 34 sentences
+2026-04-22 09:13:30.969 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 30 sentences
+2026-04-22 09:13:31.255 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 76 sentences
+2026-04-22 09:13:31.256 | INFO     | pipeline:ingest_documents:186 | Generated 13 chunks using 'sentence' strategy
+2026-04-22 09:13:31.266 | WARNING  | embedder:embed_and_cache:124 | Cache size mismatch (11 vs 13) — recomputing
+2026-04-22 09:13:31.267 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 13 texts...
+2026-04-22 09:13:31.949 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\turvi\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-22 09:13:31.949 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (13, 384)
+2026-04-22 09:13:31.952 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 13 vectors, dim=384
+2026-04-22 09:13:31.958 | INFO     | indexer:save:188 | Saved FAISS index (13 vectors) to C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:13:31.963 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 09:13:31.965 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 13 chunks in 3.26s
+2026-04-22 09:42:04.827 | INFO     | document_loader:load_txt:120 | Loaded TXT: sample_nlp_notes.txt (6036 chars)
+2026-04-22 09:42:04.828 | INFO     | document_loader:batch_load:211 | Batch loaded 1 document sections from 1 files
+2026-04-22 09:42:04.830 | INFO     | pipeline:ingest_documents:159 | Loaded 1 document sections
+2026-04-22 09:42:05.211 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 46 sentences
+2026-04-22 09:42:05.211 | INFO     | pipeline:ingest_documents:186 | Generated 3 chunks using 'sentence' strategy
+2026-04-22 09:42:05.215 | WARNING  | embedder:embed_and_cache:124 | Cache size mismatch (13 vs 3) — recomputing
+2026-04-22 09:42:05.216 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 3 texts...
+2026-04-22 09:42:05.380 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\turvi\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-22 09:42:05.381 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (3, 384)
+2026-04-22 09:42:05.382 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 3 vectors, dim=384
+2026-04-22 09:42:05.386 | INFO     | indexer:save:188 | Saved FAISS index (3 vectors) to C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:42:05.388 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 3 chunks
+2026-04-22 09:42:05.391 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 3 chunks in 0.56s
+2026-04-22 09:42:23.329 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:42:23.409 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:42:27.108 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:42:27.185 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:42:27.655 | INFO     | document_loader:load_pdf:88 | Loaded PDF: Conference_Paper.pdf (6 pages, 6 with text)
+2026-04-22 09:42:27.655 | INFO     | document_loader:batch_load:211 | Batch loaded 6 document sections from 1 files
+2026-04-22 09:42:27.656 | INFO     | pipeline:ingest_documents:159 | Loaded 6 document sections
+2026-04-22 09:42:27.879 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 27 sentences
+2026-04-22 09:42:28.074 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 36 sentences
+2026-04-22 09:42:28.178 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 20 sentences
+2026-04-22 09:42:28.307 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 34 sentences
+2026-04-22 09:42:28.458 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 2 chunks from 30 sentences
+2026-04-22 09:42:28.735 | DEBUG    | chunker:chunk_by_sentence:240 | Sentence chunking: 3 chunks from 76 sentences
+2026-04-22 09:42:28.735 | INFO     | pipeline:ingest_documents:186 | Generated 13 chunks using 'sentence' strategy
+2026-04-22 09:42:28.738 | WARNING  | embedder:embed_and_cache:124 | Cache size mismatch (3 vs 13) — recomputing
+2026-04-22 09:42:28.739 | INFO     | embedder:embed_and_cache:130 | Computing embeddings for 13 texts...
+2026-04-22 09:42:29.232 | INFO     | embedder:embed_and_cache:136 | Saved embeddings cache to C:\Users\turvi\Downloads\NLP\iqas\models\embeddings_cache\embeddings.npy
+2026-04-22 09:42:29.232 | INFO     | pipeline:ingest_documents:212 | Computed embeddings: shape (13, 384)
+2026-04-22 09:42:29.234 | INFO     | indexer:build:81 | Built FAISS FlatIP index: 13 vectors, dim=384
+2026-04-22 09:42:29.238 | INFO     | indexer:save:188 | Saved FAISS index (13 vectors) to C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:42:29.243 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 09:42:29.244 | INFO     | pipeline:ingest_documents:240 | Ingestion complete: 1 docs, 13 chunks in 1.63s
+2026-04-22 09:54:36.516 | INFO     | indexer:load:217 | Loaded FAISS index: 13 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:55:06.570 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 09:55:06.574 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 09:55:06.575 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks
+2026-04-22 09:56:42.911 | INFO     | indexer:load:217 | Loaded FAISS index: 13 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 09:56:52.909 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 09:56:52.914 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 09:56:52.915 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks
+2026-04-22 09:57:48.072 | INFO     | tokenizer:__init__:39 | Loaded spaCy model: en_core_web_sm
+2026-04-22 10:00:46.940 | INFO     | indexer:load:217 | Loaded FAISS index: 13 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 10:01:52.960 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 10:01:52.964 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 10:01:52.965 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks
+2026-04-22 10:02:46.925 | INFO     | indexer:load:217 | Loaded FAISS index: 13 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 10:03:20.404 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 10:03:20.409 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 10:03:20.410 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks
+2026-04-22 14:31:12.110 | INFO     | indexer:load:217 | Loaded FAISS index: 13 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 14:31:20.262 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 14:31:20.273 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 14:31:20.274 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks

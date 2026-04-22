@@ -59,7 +59,7 @@ with st.sidebar:
 
     page = st.radio(
         "Go to:",
-        options=["📤 Upload", "💬 Q&A", "📊 Analytics"],
+        options=["📤 Upload", "💬 Q&A", "📊 Analytics", "🎭 Sentiment", "🌐 Knowledge Graph"],
         index=0,
         label_visibility="collapsed",
         key="nav_radio",
@@ -124,3 +124,11 @@ elif page == "💬 Q&A":
 elif page == "📊 Analytics":
     from app.views.analytics import render_analytics_page
     render_analytics_page()
+
+elif page == "🎭 Sentiment":
+    from app.views.sentiment import render_sentiment_page
+    render_sentiment_page()
+
+elif page == "🌐 Knowledge Graph":
+    from app.views.knowledge import render_knowledge_page
+    render_knowledge_page()
