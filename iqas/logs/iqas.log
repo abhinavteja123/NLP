@@ -492,3 +492,7 @@
 2026-04-22 14:31:20.262 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
 2026-04-22 14:31:20.273 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
 2026-04-22 14:31:20.274 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks
+2026-04-22 15:44:38.306 | INFO     | indexer:load:217 | Loaded FAISS index: 13 vectors from C:\Users\turvi\Downloads\NLP\iqas\models\faiss_index\index.faiss
+2026-04-22 15:44:54.694 | INFO     | embedder:__init__:43 | Loaded embedding model: sentence-transformers/all-MiniLM-L6-v2 (dim=384)
+2026-04-22 15:44:54.703 | INFO     | retriever:__init__:90 | Initialized HybridRetriever with 13 chunks
+2026-04-22 15:44:54.705 | INFO     | pipeline:load_index:303 | Loaded index with 13 chunks
