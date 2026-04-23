@@ -374,7 +374,7 @@ def render_knowledge_page():
 
                 import pandas as pd
                 df = pd.DataFrame(pairs[:20], columns=["Entity A", "Entity B", "Co-occurrences"])
-                st.dataframe(df, use_container_width=True, hide_index=True)
+                st.dataframe(df, hide_index=True)
 
         except ImportError:
             st.info("Install plotly for heatmap visualization.")

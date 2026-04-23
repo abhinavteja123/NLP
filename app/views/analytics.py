@@ -214,7 +214,7 @@ def render_analytics_page():
         for q in query_log
     ])
 
-    st.dataframe(log_df, use_container_width=True, hide_index=True)
+    st.dataframe(log_df, hide_index=True)
 
     # ── Export ──
     st.markdown("---")

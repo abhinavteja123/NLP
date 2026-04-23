@@ -55,5 +55,12 @@ models/embeddings_cache/*
 .DS_Store
 Thumbs.db
 
+# Gemini / AI tools
+.gemini/
+.claude/
+.code-review-graph/
+graphify-out/
+
 # Temp Files
 dump_chunks.py
+*.tmp

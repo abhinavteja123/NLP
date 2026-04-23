@@ -473,4 +473,4 @@ def render_sentiment_page():
                 }
                 for s in result.sentence_sentiments
             ])
-            st.dataframe(df, use_container_width=True, hide_index=True)
+            st.dataframe(df, hide_index=True)

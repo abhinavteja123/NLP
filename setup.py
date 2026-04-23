@@ -7,12 +7,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="iqas",
-    version="1.0.0",
-    description="Intelligent Question Answering System — NLP-powered document QA",
+    version="2.0.0",
+    description="Intelligent Question Answering System — NLP-powered document QA with sentiment analysis and knowledge graphs",
     author="Abhinav Teja",
     author_email="",
+    url="https://github.com/abhinavteja123/NLP",
     python_requires=">=3.10",
-    packages=find_packages(),
+    packages=find_packages(exclude=["tests*", "venv*"]),
     install_requires=[
         "streamlit>=1.32.0",
         "spacy>=3.7.0",
@@ -34,9 +35,14 @@ setup(
     extras_require={
         "dev": ["pytest>=8.0.0"],
     },
-    entry_points={
-        "console_scripts": [
-            "iqas=app.main:main",
-        ],
-    },
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Education",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Text Processing :: Linguistic",
+    ],
 )
