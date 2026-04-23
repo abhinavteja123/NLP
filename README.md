@@ -1,7 +1,5 @@
 # 🧠 IQAS — Intelligent Question Answering System
 
-> **NLP Final Year Project | SRM University AP | B.Tech CSE (AI & ML)**
-
 A production-ready Intelligent Question Answering System that answers user questions from uploaded documents (PDFs, textbooks, lecture notes) using classical NLP + semantic search — featuring sentiment analysis, knowledge graph exploration, and hybrid retrieval.
 
 ---
